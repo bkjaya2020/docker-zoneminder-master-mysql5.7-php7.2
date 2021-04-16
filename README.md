@@ -33,7 +33,7 @@ Now you are inside of zm container
 
 <code>exit</code
 
-<code>sudo docker restart zm</code
+<code>sudo docker restart zm</code>
 
 <code>http://localhost:8080/zm/</code>
 
