@@ -31,7 +31,7 @@ Now you are inside of zm container
 
 <code>firstrun.sh</code>
 
-<code>exit</code
+<code>exit</code>
 
 <code>sudo docker restart zm</code>
 
