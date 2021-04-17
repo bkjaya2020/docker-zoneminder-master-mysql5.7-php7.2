@@ -1,4 +1,4 @@
-# bkjaya1952/zoneminder-master-docker-latest
+# bkjaya1952/docker-zoneminder-master-mysql5.7-php7.2
 Zoneminder-master , latest. docker image with Mysql5.7 &amp; MSMTP
 
 Based on Isaac Connor's ZoneMinder Master Snapshots at https://launchpad.net/~iconnor/+archive/ubuntu/zoneminder-master
@@ -8,7 +8,7 @@ This image has been created on ubuntu:bionic with zoneminder-master/ubuntu bioni
 To pull the Repository from the dockerhub
 please refer the following link
 
-https://hub.docker.com/r/bkjaya1952/zoneminder-master-docker-latest
+https://hub.docker.com/repository/docker/bkjaya1952/docker-zoneminder-master-mysql5.7-php7.2
 
 
 Usage :
