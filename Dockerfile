@@ -19,6 +19,7 @@ RUN add-apt-repository ppa:iconnor/zoneminder-master && \
     service mysql restart
 
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY zm_create.sql /usr/share/zoneminder/db/zm_create.sql
  
 # Set our volumes before we attempt to configure apache
 VOLUME /var/cache/zoneminder/events /var/lib/mysql /var/log/zm /var/run/zm
