@@ -23,8 +23,6 @@ ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # Set our volumes before we attempt to configure apache
 VOLUME /var/cache/zoneminder/events /var/lib/mysql /var/log/zm /var/run/zm
 
-COPY zm_create.sql /usr/share/zoneminder/db/zm_create.sql
-
 RUN chmod 740 /etc/zm/zm.conf && \
     chown root:www-data /etc/zm/zm.conf && \
     adduser www-data video && \
