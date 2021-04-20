@@ -38,7 +38,6 @@ RUN chmod 740 /etc/zm/zm.conf && \
     chmod 777 /var/run/zm && \
     /etc/init.d/apache2 start
 
-
 # Expose http port
 EXPOSE 80
 
