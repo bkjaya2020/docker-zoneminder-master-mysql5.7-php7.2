@@ -29,7 +29,7 @@ Configuring mysql for the first run only
 
 Now you are inside of zm container
 
-<code>firstrun.sh</code>
+<code>updatemysql.sh </code>
 
 <code>exit</code>
 
